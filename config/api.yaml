@@ -1,0 +1,13 @@
+api:
+  title: "Advanced Multi-Model Detection API"
+  version: "v1"
+  rate_limit_per_minute: 120
+  max_upload_mb: 25
+  default_model: "yolov8n"
+  default_backend: "onnx"
+  default_device: "auto"
+  enable_cors: true
+  cors_origins:
+    - "*"
+  api_key_header: "x-api-key"
+  api_keys: []

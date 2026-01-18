@@ -1,0 +1,13 @@
+models:
+  yolov8n:
+    pytorch: "models/yolov8n.pt"
+    onnx: "models/yolov8n.onnx"
+    onnx_fp16: "models/yolov8n_fp16.onnx"
+    onnx_int8: "models/yolov8n_int8.onnx"
+    tensorrt: "models/yolov8n.engine"
+  yolov10n:
+    pytorch: "models/yolov10n.pt"
+    onnx: "models/yolov10n.onnx"
+  yolov11n:
+    pytorch: "models/yolov11n.pt"
+    onnx: "models/yolov11n.onnx"
